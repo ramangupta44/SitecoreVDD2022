@@ -6,6 +6,7 @@ using Sitecore.Framework.Conditions;
 using Sitecore.Modules.EmailCampaign.Core.Contacts;
 using Sitecore.Modules.EmailCampaign.Core.Pipelines.GetContact;
 using System;
+using Sitecore.Annotations;
 
 namespace SitecoreVDD.Extension.Feature.CustomTokens.Model
 {
@@ -13,13 +14,13 @@ namespace SitecoreVDD.Extension.Feature.CustomTokens.Model
     {
         private readonly IContactService _contactService;
 
-        public GetContact(IContactService contactService)
+        public GetContact([NotNull] IContactService contactService)
         {
             Condition.Requires(contactService, nameof(contactService)).IsNotNull();
 
             _contactService = contactService;
         }
-        public void Process(GetContactPipelineArgs args)
+        public void Process([NotNull] GetContactPipelineArgs args)
         {
             Condition.Requires(args, nameof(args)).IsNotNull();
 

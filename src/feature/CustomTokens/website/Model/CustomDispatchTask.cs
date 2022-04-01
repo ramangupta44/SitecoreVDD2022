@@ -14,17 +14,17 @@ using Sitecore.XConnect.Operations;
 using System.Collections.Generic;
 using System.Linq;
 using SitecoreVDD.Extension.Foundation.Facets.Model;
+using Sitecore.Annotations;
 
 namespace SitecoreVDD.Extension.Feature.CustomTokens.Model
 {
     public class CustomDispatchTask : DispatchTask
     {
         private IContactService _contactService;
-        public CustomDispatchTask(ShortRunningTaskPool taskPool, IRecipientValidator recipientValidator, IContactService contactService, EcmDataProvider dataProvider, 
-            ItemUtilExt itemUtil, IEventDataService eventDataService, IDispatchManager dispatchManager, EmailAddressHistoryManager emailAddressHistoryManager, 
-            IRecipientManagerFactory recipientManagerFactory, SentMessageManager sentMessageManager)
-        : base(taskPool, recipientValidator, contactService, dataProvider, itemUtil, eventDataService, dispatchManager, emailAddressHistoryManager, 
-              recipientManagerFactory, sentMessageManager)
+        public CustomDispatchTask([NotNull] ShortRunningTaskPool taskPool, [NotNull] IRecipientValidator recipientValidator, [NotNull] IContactService contactService, [NotNull] EcmDataProvider dataProvider, 
+            [NotNull] ItemUtilExt itemUtil, [NotNull] IEventDataService eventDataService, [NotNull] IDispatchManager dispatchManager, [NotNull] EmailAddressHistoryManager emailAddressHistoryManager, 
+            [NotNull] IRecipientManagerFactory recipientManagerFactory, [NotNull] SentMessageManager sentMessageManager)
+        : base(taskPool, recipientValidator, contactService, dataProvider, itemUtil, eventDataService, dispatchManager, emailAddressHistoryManager, recipientManagerFactory, sentMessageManager)
         {
             _contactService = contactService;
         }

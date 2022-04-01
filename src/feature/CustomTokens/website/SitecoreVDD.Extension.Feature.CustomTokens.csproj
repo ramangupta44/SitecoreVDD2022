@@ -238,6 +238,9 @@
     <Reference Include="Sitecore.Analytics.XConnect, Version=17.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Sitecore.Analytics.XConnect.10.2.0\lib\net48\Sitecore.Analytics.XConnect.dll</HintPath>
     </Reference>
+    <Reference Include="Sitecore.Annotations, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Sitecore.Annotations.10.2.0\lib\net471\Sitecore.Annotations.dll</HintPath>
+    </Reference>
     <Reference Include="Sitecore.Async.Extensions.Legacy, Version=4.1.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Sitecore.Async.Extensions.Legacy.10.2.0\lib\netstandard2.0\Sitecore.Async.Extensions.Legacy.dll</HintPath>
     </Reference>
