@@ -1,0 +1,18 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/src/feature/CustomRules/website/bin
+/src/feature/CustomRules/website/obj/Debug
+/src/feature/CustomTokens/website/bin
+/src/feature/CustomTokens/website/obj/Debug
+/src/feature/GenerateModel/website/obj/Debug
+/src/feature/GenerateModel/website/bin/Debug
+/src/feature/ImportContacts/website/obj/Debug
+/src/feature/ImportContacts/website/bin/Debug
+/src/foundation/Facets/website/bin
+/src/foundation/Facets/website/obj/Debug
+/src/project/VDD/website/obj/Debug
+/src/project/VDD/website/bin
+/packages
+/.vs

@@ -1,0 +1,88 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{76AD4FFF-48D0-4DE8-AED1-C18EE0079B2F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{01F7C647-C4BB-4B48-8D2F-8A06FDF5B3AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{89495E48-38B7-46B2-B984-ADDA7866C572}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VDD", "VDD", "{5ECD267E-9E4A-44B5-A4AC-98E8277C41A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreVDD.Extension.Project.Website", "src\project\VDD\website\SitecoreVDD.Extension.Project.Website.csproj", "{A7211576-F647-410F-B81B-456E7BBF1D33}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Facets", "Facets", "{3B3BA406-E538-4B68-84DE-296074BC5658}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreVDD.Extension.Foundation.Facets", "src\foundation\Facets\website\SitecoreVDD.Extension.Foundation.Facets.csproj", "{1C8CF727-F3FC-4DF1-B047-90135CF7DB08}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GenerateModel", "GenerateModel", "{CD955E6C-C244-4BD5-A4FF-4557D9AB1B0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreVDD.Extension.Feature.GenerateModel", "src\feature\GenerateModel\website\SitecoreVDD.Extension.Feature.GenerateModel.csproj", "{0E79B1F6-1DE2-46C9-923F-1CEB89A3AE86}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ImportContacts", "ImportContacts", "{CDC4E300-F664-48E4-A8C1-F388DE9DCF83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreVDD.Extension.Feature.ImportContacts", "src\feature\ImportContacts\website\SitecoreVDD.Extension.Feature.ImportContacts.csproj", "{D6449C8F-CC4D-49B8-BEB5-2C79359EECAA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CustomRules", "CustomRules", "{3018243A-1FAE-4333-9DCA-E6B81BC81476}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreVDD.Extension.Feature.CustomRules", "src\feature\CustomRules\website\SitecoreVDD.Extension.Feature.CustomRules.csproj", "{D9253247-8B8B-4C9B-BF10-137D9D6BA47E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CustomTokens", "CustomTokens", "{0F4AABB2-3819-42E2-ACC9-B1EFEBF4D394}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreVDD.Extension.Feature.CustomTokens", "src\feature\CustomTokens\website\SitecoreVDD.Extension.Feature.CustomTokens.csproj", "{A2EA8F41-8220-478C-9D05-AB61DE239D1E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7211576-F647-410F-B81B-456E7BBF1D33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7211576-F647-410F-B81B-456E7BBF1D33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7211576-F647-410F-B81B-456E7BBF1D33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7211576-F647-410F-B81B-456E7BBF1D33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C8CF727-F3FC-4DF1-B047-90135CF7DB08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C8CF727-F3FC-4DF1-B047-90135CF7DB08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C8CF727-F3FC-4DF1-B047-90135CF7DB08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C8CF727-F3FC-4DF1-B047-90135CF7DB08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E79B1F6-1DE2-46C9-923F-1CEB89A3AE86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E79B1F6-1DE2-46C9-923F-1CEB89A3AE86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E79B1F6-1DE2-46C9-923F-1CEB89A3AE86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E79B1F6-1DE2-46C9-923F-1CEB89A3AE86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6449C8F-CC4D-49B8-BEB5-2C79359EECAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6449C8F-CC4D-49B8-BEB5-2C79359EECAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6449C8F-CC4D-49B8-BEB5-2C79359EECAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6449C8F-CC4D-49B8-BEB5-2C79359EECAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9253247-8B8B-4C9B-BF10-137D9D6BA47E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9253247-8B8B-4C9B-BF10-137D9D6BA47E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9253247-8B8B-4C9B-BF10-137D9D6BA47E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9253247-8B8B-4C9B-BF10-137D9D6BA47E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2EA8F41-8220-478C-9D05-AB61DE239D1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2EA8F41-8220-478C-9D05-AB61DE239D1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2EA8F41-8220-478C-9D05-AB61DE239D1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2EA8F41-8220-478C-9D05-AB61DE239D1E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5ECD267E-9E4A-44B5-A4AC-98E8277C41A9} = {89495E48-38B7-46B2-B984-ADDA7866C572}
+		{A7211576-F647-410F-B81B-456E7BBF1D33} = {5ECD267E-9E4A-44B5-A4AC-98E8277C41A9}
+		{3B3BA406-E538-4B68-84DE-296074BC5658} = {01F7C647-C4BB-4B48-8D2F-8A06FDF5B3AB}
+		{1C8CF727-F3FC-4DF1-B047-90135CF7DB08} = {3B3BA406-E538-4B68-84DE-296074BC5658}
+		{CD955E6C-C244-4BD5-A4FF-4557D9AB1B0F} = {76AD4FFF-48D0-4DE8-AED1-C18EE0079B2F}
+		{0E79B1F6-1DE2-46C9-923F-1CEB89A3AE86} = {CD955E6C-C244-4BD5-A4FF-4557D9AB1B0F}
+		{CDC4E300-F664-48E4-A8C1-F388DE9DCF83} = {76AD4FFF-48D0-4DE8-AED1-C18EE0079B2F}
+		{D6449C8F-CC4D-49B8-BEB5-2C79359EECAA} = {CDC4E300-F664-48E4-A8C1-F388DE9DCF83}
+		{3018243A-1FAE-4333-9DCA-E6B81BC81476} = {76AD4FFF-48D0-4DE8-AED1-C18EE0079B2F}
+		{D9253247-8B8B-4C9B-BF10-137D9D6BA47E} = {3018243A-1FAE-4333-9DCA-E6B81BC81476}
+		{0F4AABB2-3819-42E2-ACC9-B1EFEBF4D394} = {76AD4FFF-48D0-4DE8-AED1-C18EE0079B2F}
+		{A2EA8F41-8220-478C-9D05-AB61DE239D1E} = {0F4AABB2-3819-42E2-ACC9-B1EFEBF4D394}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Caching.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.ServiceBus.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Configuration.6.0.1304.0\lib\NET45
+		SolutionGuid = {A02C864D-8BFE-4AB2-A627-322E83D88040}
+	EndGlobalSection
+EndGlobal
