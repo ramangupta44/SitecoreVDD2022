@@ -16,3 +16,5 @@
 /src/project/VDD/website/bin
 /packages
 /.vs
+/src/feature/GenerateModel/website/obj/Release/.NETFramework,Version=v4.8.AssemblyAttributes.cs
+/src/feature/ImportContacts/website/obj/Release/.NETFramework,Version=v4.8.AssemblyAttributes.cs
