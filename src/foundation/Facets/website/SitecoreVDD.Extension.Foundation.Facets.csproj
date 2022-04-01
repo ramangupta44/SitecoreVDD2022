@@ -121,6 +121,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Config\MarketingAutomation_patch\sc.MarketingAutomation.ContactLoader.xml" />
+    <Content Include="App_Config\MarketingAutomation_patch\sc.VDD.CustomModel.xml" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -129,6 +131,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Config\Sitecore\XConnect.Client.Configuration\Sitecore.XConnect.CustomFacetClient.config" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
