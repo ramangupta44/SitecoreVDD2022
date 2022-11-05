@@ -1,6 +1,7 @@
 # Sitecore Virtual Developer Day 2022
 
-This repository contains code for the demo which I've presented during Sitecore Virtual developer day 2022 (13th April 2022). Here is the link for the video of my session. In this session, I talked about multi-layered personalization in Sitecore experience platform. Three main pillars for multi-layered personalization are:
+This repository contains code for the demo which I've presented during Sitecore Virtual developer day 2022 (13th April 2022). Here is the link for the video of my session. https://www.youtube.com/watch?v=fkXZEYxKnGY&t=17781s
+In this session, I talked about multi-layered personalization in Sitecore experience platform. Three main pillars for multi-layered personalization are:
 
 **1. Segment your mailing list:** To showcase this, I've created custom segmented list rule during my session, you can find all related source code for this at src/feature/CustomRules/website/Model/SegmentedListRules/. In this (SitecoreVDD.Extension.Feature.CustomRules) project, I’ve created segemented rule to filter out customers based on policy start date.
 
